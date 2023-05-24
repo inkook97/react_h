@@ -1,6 +1,5 @@
 .header {
     width: 100%;
-    background-color: aliceblue;
 }
 
 .header_in {
@@ -14,7 +13,6 @@
 .header_in .logo {
     width: 150px;
     height: 120px;
-    background-color: aqua;
     display: flex;
     align-items: center;
 }
@@ -22,7 +20,6 @@
 .header_in .nav {
     width: 900px;
     height: 120px;
-    background-color: wheat;
 }
 
 .header_in .nav ul {
@@ -42,7 +39,6 @@
     width: 350px;
     height: 120px;
     display: flex;
-    background-color: aquamarine;
 }
 
 .header_in .icon ul {
@@ -73,11 +69,10 @@
 
 .contents {
     width: 100%;
-    background-color: rgb(208, 250, 236);
 }
 
 .contents_in {
-    width: 1500px;
+    width: 1920px;
     height: 780px;
     margin: 0 auto;
 }

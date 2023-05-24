@@ -1,10 +1,12 @@
 import React from "react";
+import './Plan.css';
+import Mainimg from "../Mainimg";
 
 function Plan() {
     return (
-        <div>
-
-        </div>
+        <div className="Plan">
+            <Mainimg />
+        </div >
     )
 };
 
