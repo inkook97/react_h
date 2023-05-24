@@ -1,7 +1,5 @@
 import React from "react";
 import Mainimg from "./Mainimg";
-import Best from "./components/Best"
-import Plan from "./components/Plan"
 import './Main.css';
 
 function Main() {
