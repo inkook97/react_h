@@ -50,11 +50,23 @@ function Main() {
                     </div>
                     <div className="Plan">
                         <div className="Plan_Top">
-                            <img src={require('./images/기획전.png')} alt='#' />
-                            <span>기획전 &#62;</span>
+                            <div>
+                                <img src={require('./images/2304OH_event.jpg')} alt='#' />
+                                <span>기획전 &#62;</span>
+                            </div>
+                            <ul>
+                                <li><img src={require('./images/2304CL_event.jpg')} alt='#' /></li>
+                                <li><img src={require('./images/2304HC_event.jpg')} alt='#' /></li>
+                            </ul>
                         </div>
                         <div className="Plan_Bottom">
-                            <img src={require('./images/브랜드.png')} alt='#' />
+                            <div>
+                                <img src={require('./images/2304_brand_ss_HC.jpg')} alt='#' />
+                                <img src={require('./images/2304_brand_ss_CL.jpg')} alt='#' />
+                            </div>
+                            <div>
+                                <img src={require('./images/2304_brand_ss_OH.jpg')} alt='#' />
+                            </div>
                             <span>브랜드 &#62;</span>
                         </div>
                     </div >

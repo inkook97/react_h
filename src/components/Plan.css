@@ -13,6 +13,30 @@
     position: relative;
 }
 
+.Plan_Top>div {
+    width: 50%;
+    position: relative;
+}
+
+.Plan_Top>div>span {
+    position: absolute;
+    left: 0;
+    bottom: 25%;
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.Plan_Top>ul {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.Plan_Top>ul>li>img {
+    width: 30%;
+    height: 182.5px;
+}
+
 .plan span {
     position: absolute;
     left: 0;
