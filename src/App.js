@@ -4,6 +4,7 @@ import { Route, Link } from 'react-router-dom';
 import { ItemProvider } from './context';
 
 import Main from './Main';
+import Footer from './Footer';
 import Kategorie from './components/Kategorie';
 import Best from './components/Best';
 import Product from './components/Product';
@@ -43,7 +44,6 @@ function App() {
             </div>
           </div>
         </div>
-
         <div>
           <Route path="/" exact={true} component={Main}></Route>
           <Route path="/components/Kategorie" component={Kategorie}></Route>
@@ -52,8 +52,10 @@ function App() {
           <Route path="/components/Plan" component={Plan}></Route>
           <Route path="/components/Contactus" component={Contactus}></Route>
         </div>
-      </ItemProvider>
+        <Footer />
+      </ItemProvider >
     </>
+
   );
 }
 

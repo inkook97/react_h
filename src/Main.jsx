@@ -60,19 +60,19 @@ function Main() {
                             </ul>
                         </div>
                         <div className="Plan_Bottom">
-                            <div>
+                            <div className="Plan_Bottom_Left">
                                 <img src={require('./images/2304_brand_ss_HC.jpg')} alt='#' />
                                 <img src={require('./images/2304_brand_ss_CL.jpg')} alt='#' />
                             </div>
-                            <div>
+                            <div className="Plan_Bottom_Right">
                                 <img src={require('./images/2304_brand_ss_OH.jpg')} alt='#' />
                             </div>
-                            <span>브랜드 &#62;</span>
+                            <span style={{ position: 'absolute', left: '46%', top: '300px', color: '#fff', fontSize: '40px', textShadow: '1px 1px 1px #9c9c9c', borderBottom: '2px solid #fff' }}>브랜드 &#62;</span>
                         </div>
-                    </div >
+                    </div>
                 </div>
             </div>
-        </div >
+        </div>
     )
 }
 

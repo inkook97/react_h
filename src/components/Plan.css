@@ -1,8 +1,10 @@
 .Plan {
     width: 100%;
-    height: 2500px;
+    height: 1700px;
     margin: 0 auto;
-    background-color: rgb(155, 202, 202);
+    padding-top: 150px;
+    box-sizing: border-box;
+    background-color: #FBF5EE;
 }
 
 .Plan_Top {
@@ -18,12 +20,20 @@
     position: relative;
 }
 
+.Plan_Top>div>img {
+    float: right;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
 .Plan_Top>div>span {
     position: absolute;
-    left: 0;
+    left: 32%;
     bottom: 25%;
     color: #fff;
-    text-shadow: 1px 1px 1px #ccc;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px #9c9c9c;
+    border-bottom: 2px solid #fff;
 }
 
 .Plan_Top>ul {
@@ -35,17 +45,46 @@
 .Plan_Top>ul>li>img {
     width: 30%;
     height: 182.5px;
+    padding-left: 10px;
+    box-sizing: border-box;
 }
 
-.plan span {
-    position: absolute;
-    left: 0;
-    top: 0;
-}
 
 
 .Plan_Bottom {
     width: 100%;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.Plan_Bottom_Left {
+    width: 50%;
+    position: absolute;
+    left: -10px;
+}
+
+.Plan_Bottom_Left>img:first-child {
+    position: absolute;
+    right: 0;
+    height: 450px;
+    width: 288px;
+}
+
+.Plan_Bottom_Left>img:last-child {
+    position: absolute;
+    height: 450px;
+    width: 288px;
+    top: 414px;
+    left: 50%;
+}
+
+.Plan_Bottom_Right {
+    width: 50%;
+    position: absolute;
+    right: -10px;
+}
+
+.Plan_Bottom>div>img {
+    width: 60%;
 }
