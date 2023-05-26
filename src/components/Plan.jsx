@@ -4,8 +4,9 @@ import Mainimg from "../Mainimg";
 
 function Plan() {
     return (
-        <div className="Plan">
+        <div>
             <Mainimg />
+            
         </div >
     )
 };

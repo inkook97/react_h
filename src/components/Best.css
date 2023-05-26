@@ -1,6 +1,6 @@
 .Best {
     width: 100%;
-    height: 1000px;
+    height: 2300px;
     margin: 0 auto;
 }
 
@@ -9,6 +9,8 @@
     color: #000;
     text-align: center;
     font-weight: 600;
+    margin: 0;
+    padding: 0;
     padding-top: 150px;
     box-sizing: border-box;
 }
@@ -17,30 +19,6 @@
     font-size: 15px;
     color: #9B959B;
     text-align: center;
-}
-
-
-.Best ul {
-    width: 100%;
-    display: flex;
-    padding: 0;
     margin: 0;
-}
-
-.Best li {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    padding: 0 50px;
-    box-sizing: border-box;
-}
-
-.Best li:first-child {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.Best ul li img {
-    width: 700px;
-    height: 500px;
+    padding: 0;
 }

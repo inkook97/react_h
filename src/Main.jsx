@@ -36,7 +36,7 @@ function Main() {
                             FLOWER POP
                         </li>
                     </ul>
-                    <div className="Best">
+                    <div className="Bests">
                         <h2>BEST</h2>
                         <p>고객이 만족하는 패션</p>
                         <ul>

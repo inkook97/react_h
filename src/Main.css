@@ -22,12 +22,17 @@
     font-size: 15px;
     color: #9B959B;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
 }
 
 .img_box {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -42,4 +47,56 @@
     width: 210px;
     height: 210px;
     margin: 0 auto;
+}
+
+.Bests {
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.Bests h2 {
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+
+.Bests p {
+    font-size: 15px;
+    color: #9B959B;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+
+.Bests ul {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.Bests li {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.Bests li:first-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Bests ul li img {
+    width: 700px;
+    height: 500px;
 }

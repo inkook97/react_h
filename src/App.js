@@ -13,7 +13,7 @@ import Contactus from './components/Contactus';
 
 function App() {
   return (
-    <>
+    <div>
       <ItemProvider>
         <div className='header'>
           <div className='header_in'>
@@ -22,7 +22,7 @@ function App() {
             </div>
             <div className='nav'>
               <ul>
-                <li><Link to="/components/Kategorie" style={{ color: '#9B959B', textDecoration: 'none' }}>카테고리</Link></li>
+                <li><Link to="/components/Kategorie" style={{ color: '#9B959B', textDecoration: 'none' }}>추천상품</Link></li>
                 <li><Link to="/components/Best" style={{ color: '#9B959B', textDecoration: 'none' }}>Best</Link></li>
                 <li><Link to="/components/Product" style={{ color: '#9B959B', textDecoration: 'none' }}>신상품</Link></li>
                 <li><Link to="/components/Plan" style={{ color: '#9B959B', textDecoration: 'none' }}>기획전</Link></li>
@@ -54,7 +54,7 @@ function App() {
         </div>
         <Footer />
       </ItemProvider >
-    </>
+    </div>
 
   );
 }
