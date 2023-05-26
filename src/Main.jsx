@@ -52,7 +52,7 @@ function Main() {
                         <div className="Plan_Top">
                             <div>
                                 <img src={require('./images/2304OH_event.jpg')} alt='#' />
-                                <span>기획전 &#62;</span>
+                                <span style={{ cursor: 'pointer' }}>기획전 &#62;</span>
                             </div>
                             <ul>
                                 <li><img src={require('./images/2304CL_event.jpg')} alt='#' /></li>
@@ -67,12 +67,12 @@ function Main() {
                             <div className="Plan_Bottom_Right">
                                 <img src={require('./images/2304_brand_ss_OH.jpg')} alt='#' />
                             </div>
-                            <span style={{ position: 'absolute', left: '46%', top: '300px', color: '#fff', fontSize: '40px', textShadow: '1px 1px 1px #9c9c9c', borderBottom: '2px solid #fff' }}>브랜드 &#62;</span>
+                            <span style={{ position: 'absolute', left: '46%', top: '300px', color: '#fff', fontSize: '40px', textShadow: '1px 1px 1px #9c9c9c', borderBottom: '2px solid #fff', cursor: 'pointer' }}>브랜드 &#62;</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

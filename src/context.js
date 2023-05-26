@@ -12,8 +12,6 @@ const initItems = [
         price: '69,000',
         priceL: '138,000',
         priceR: '-50%',
-        act: true,
-        brand1: true
     },
     {
         id: 2,
@@ -25,8 +23,6 @@ const initItems = [
         price: '69,900',
         priceL: '199,900',
         priceR: '-64%',
-        act: true,
-        brand1: true
     },
     {
         id: 3,
@@ -38,8 +34,6 @@ const initItems = [
         price: '59,900',
         priceL: '199,000',
         priceR: '-69%',
-        act: true,
-        brand1: true
     },
     {
         id: 4,
@@ -51,8 +45,6 @@ const initItems = [
         price: '119,700',
         priceL: '171,000',
         priceR: '-30%',
-        act: true,
-        brand1: true
     },
     {
         id: 5,
@@ -64,8 +56,6 @@ const initItems = [
         price: '179,900',
         priceL: '257,000',
         priceR: '-30%',
-        act: true,
-        brand1: true
     },
     {
         id: 6,
@@ -76,8 +66,6 @@ const initItems = [
         title: '체크라인 정장자켓 HCAMJK401',
         price: '439,000',
         priceL: '439,000',
-        act: true,
-        brand1: true
     },
     {
         id: 7,
@@ -89,8 +77,6 @@ const initItems = [
         price: '219,800',
         priceL: '314,000',
         priceR: '-30%',
-        act: true,
-        brand1: true
     },
     {
         id: 8,
@@ -102,8 +88,6 @@ const initItems = [
         price: '79,800',
         priceL: '114,000',
         priceR: '-30%',
-        act: true,
-        brand1: true
     },
     {
         id: 9,
@@ -115,7 +99,6 @@ const initItems = [
         price: '142,500',
         priceL: '285,000',
         priceR: '-50%',
-        act: true,
         brand1: true
     },
     {
@@ -128,10 +111,75 @@ const initItems = [
         price: '199,500',
         priceL: '399,000',
         priceR: '-50%',
-        act: true,
         brand1: true
     },
-   
+    {
+        id: 11,
+        src: 'https://www.lesportsackorea.com:447/data/productimages/a/3/8056U256.jpg',
+        best: 'BEST',
+        number: '01',
+        titleh: '크로커다일레이디',
+        title: '울 혼방 후드 체크코트_CLAWCT105',
+        price: '199,500',
+        priceL: '399,000',
+        priceR: '-50%',
+    },
+    {
+        id: 12,
+        src: 'https://www.lesportsackorea.com:447/data/productimages/b/3/3747U256.jpg',
+        best: 'BEST',
+        number: '02',
+        titleh: '크로커다일레이디',
+        title: '울 혼방 후드 체크코트_CLAWCT105',
+        price: '199,500',
+        priceL: '399,000',
+        priceR: '-50%',
+    },
+    {
+        id: 13,
+        src: 'https://www.lesportsackorea.com:447/data/productimages/a/3/2296C387.jpg',
+        best: 'BEST',
+        number: '04',
+        titleh: '크로커다일레이디',
+        title: '울 혼방 후드 체크코트_CLAWCT105',
+        price: '199,500',
+        priceL: '399,000',
+        priceR: '-50%',
+    },
+    {
+        id: 14,
+        src: 'https://www.lesportsackorea.com:447/data/productimages/a/3/2273C387.jpg',
+        best: 'BEST',
+        number: '05',
+        titleh: '크로커다일레이디',
+        title: '울 혼방 후드 체크코트_CLAWCT105',
+        price: '199,500',
+        priceL: '399,000',
+        priceR: '-50%',
+    },
+    {
+        id: 15,
+        src: 'https://www.lesportsackorea.com:447/data/productimages/a/3/7121E877.jpg',
+        best: 'BEST',
+        number: '06',
+        titleh: '크로커다일레이디',
+        title: '울 혼방 후드 체크코트_CLAWCT105',
+        price: '199,500',
+        priceL: '399,000',
+        priceR: '-50%',
+    },
+    {
+        id: 16,
+        src: 'https://www.lesportsackorea.com:447/data/productimages/a/3/3714E877.jpg',
+        best: 'BEST',
+        number: '07',
+        titleh: '크로커다일레이디',
+        title: '울 혼방 후드 체크코트_CLAWCT105',
+        price: '199,500',
+        priceL: '399,000',
+        priceR: '-50%'
+    },
+
 ]
 
 

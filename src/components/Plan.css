@@ -1,11 +1,10 @@
-
 .Plan {
     width: 100%;
     height: 1700px;
     margin: 0 auto;
     padding-top: 150px;
     box-sizing: border-box;
-    background-color: #FBF5EE;
+    /* background-color: #FBF5EE; */
 }
 
 .Plan_Top {
@@ -88,4 +87,28 @@
 
 .Plan_Bottom>div>img {
     width: 60%;
+}
+
+/* 텝메뉴 */
+
+#uncontrolled-tab-example-tab-home {
+    color: #b6b6b6;
+    font-size: 28px;
+    font-weight: 500;
+    border: none;
+}
+
+#uncontrolled-tab-example-tab-home:hover {
+    color: #eb5112;
+}
+
+#uncontrolled-tab-example-tab-profile {
+    color: #b6b6b6;
+    font-size: 28px;
+    font-weight: 500;
+    border: none;
+}
+
+#uncontrolled-tab-example-tab-profile:hover {
+    color: #eb5112;
 }

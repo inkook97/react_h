@@ -1,6 +1,7 @@
-body{
+body {
     overflow-x: hidden;
 }
+
 .header {
     width: 100%;
 }
@@ -37,6 +38,7 @@ body{
     align-items: center;
     justify-content: space-around;
 }
+
 
 .header_in .icon {
     width: 350px;
@@ -137,46 +139,47 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-  }
-  
-  .items>div>img {
+}
+
+.items>div>img {
     width: 100%;
-  }
-  
-  .items>div>p:last-child {
+}
+
+.items>div>p:last-child {
     font-size: 24px;
     color: #000;
     font-weight: 600;
-  }
-  .items>div>p {
+}
+
+.items>div>p {
     text-align: right;
     color: #aaa;
     font-size: 16px;
     float: left;
-  }
-  
-  .items>div>h4 {
+}
+
+.items>div>h4 {
     font-size: 18px;
     color: #555;
     padding: 5px 0;
     float: left;
     font-weight: 700;
     width: 250px;
-    white-space : pre;
+    white-space: pre;
     overflow: hidden;
-    text-overflow:ellipsis;
-  }
+    text-overflow: ellipsis;
+}
 
-  
-  .items>div {
+
+.items>div {
     margin-top: 20px;
     margin-bottom: 50px;
     width: 250px;
     box-sizing: border-box;
     position: relative;
-  }
+}
 
-  .items>div>div {
+.items>div>div {
     display: inline-block;
     padding: 3px 8px;
     background-color: #f1592a;
@@ -185,24 +188,25 @@ body{
     position: absolute;
     left: 0;
     top: 0;
-  }
+}
 
-  .items>div>div>span{
+.items>div>div>span {
     display: flex;
     justify-content: center;
 
-  } 
+}
 
-  .saleL{
+.saleL {
     color: #b6b6b6;
     font-size: 65%;
     font-weight: 400;
     text-decoration: line-through;
-  }
-  .saleR{
+}
+
+.saleR {
     color: #f1592a;
     position: absolute;
     font-size: 60%;
     right: 0;
     bottom: 5px;
-  }
+}

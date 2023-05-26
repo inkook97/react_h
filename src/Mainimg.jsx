@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Mainimg() {
     return (
-        <div className="mainimg" style={{ width: '100%', height: '780px'}}>
+        <div className="mainimg" style={{ width: '100%', height: '780px', cursor:'pointer'}}>
             <Carousel>
                 <Carousel.Item>
                     <div style={{ width: '100%', height: '780px' }}>
