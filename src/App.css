@@ -39,6 +39,15 @@ body {
     justify-content: space-around;
 }
 
+.header_in .nav li a:hover {
+    color: #f1592a;
+}
+
+.header_in .nav li a {
+    color: #9B959B;
+    text-decoration: none;
+}
+
 
 .header_in .icon {
     width: 350px;

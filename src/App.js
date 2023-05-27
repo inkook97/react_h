@@ -22,11 +22,11 @@ function App() {
             </div>
             <div className='nav'>
               <ul>
-                <li><Link to="/components/Kategorie" style={{ color: '#9B959B', textDecoration: 'none' }}>추천상품</Link></li>
-                <li><Link to="/components/Best" style={{ color: '#9B959B', textDecoration: 'none' }}>Best</Link></li>
-                <li><Link to="/components/Product" style={{ color: '#9B959B', textDecoration: 'none' }}>신상품</Link></li>
-                <li><Link to="/components/Plan" style={{ color: '#9B959B', textDecoration: 'none' }}>기획전</Link></li>
-                <li><Link to="/components/Contactus" style={{ color: '#9B959B', textDecoration: 'none' }}>CONTACT US</Link></li>
+                <li><Link to="/components/Kategorie" >추천상품</Link></li>
+                <li><Link to="/components/Best">Best</Link></li>
+                <li><Link to="/components/Product">신상품</Link></li>
+                <li><Link to="/components/Plan">기획전</Link></li>
+                <li><Link to="/components/Contactus">CONTACT US</Link></li>
               </ul>
             </div>
             <div className='icon'>

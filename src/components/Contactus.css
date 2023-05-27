@@ -1,0 +1,86 @@
+.call_center {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    position: relative;
+}
+
+
+.service_center {
+    width: 15%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+.service_center h2 {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+    width: 45%;
+}
+
+.service_center>ul>li {
+    color: #191919;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.search_box {
+    width: 80%;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.search {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 125px;
+    display: flex;
+}
+
+.QNA_Left {
+    width: 70%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+.QNA_Right {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.FAQ {
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 17%;
+    top: 30%;
+}
+
+.FAQ>ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+
+.FAQ>.text_event>li::after {
+    content: '|';
+    padding: 0 5px;
+}
+
+.FAQ>.text_event>li:last-child::after {
+    content: '';
+}
