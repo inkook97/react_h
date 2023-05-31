@@ -20,22 +20,22 @@ function Plan() {
                 </Tab>
                 <Tab eventKey="profile" title="종료 기획전">
                     <div style={{ width: '100%', display: 'flex', justifyContent: 'space-around', marginTop: '100px' }}>
-                        <ul style={{ width: '100%', display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }}>
+                        <ul style={{ width: '1500px', display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }}>
                             <li>
-                                <img src="//hyungjimall.com/file_data/hyungjimall/gallery/2022/03/30/236e06ed2c2bda9b9a25676b74ee24ab.jpg" alt=" " style={{ cursor: 'pointer' }} />
-                                <h4 style={{ padding: '15px 0 50px 0' }}>올리비아 하슬러, 22SS 겨울 신상 컬렉션!</h4>
+                                <img src="//hyungjimall.com/file_data/hyungjimall/gallery/2022/03/30/236e06ed2c2bda9b9a25676b74ee24ab.jpg" alt=" " style={{ cursor: 'pointer', with:'610px',height:'340px' }} />
+                                <h4 style={{ padding: '15px 0 50px 0',fontSize:'16px' }}>올리비아 하슬러, 22SS 겨울 신상 컬렉션!</h4>
                             </li>
                             <li>
-                                <img src="//hyungjimall.com/file_data/hyungjimall/gallery/2022/03/30/623ebe9597b4a2446dcce39e4c364bf2.jpg" alt=" " style={{ cursor: 'pointer' }} />
-                                <h4 style={{ padding: '15px 0 50px 0' }}>샤트렌, 22FW 겨울 신상 컬렉션!</h4>
+                                <img src="//hyungjimall.com/file_data/hyungjimall/gallery/2022/03/30/623ebe9597b4a2446dcce39e4c364bf2.jpg" alt=" " style={{ cursor: 'pointer', with:'610px',height:'340px'  }} />
+                                <h4 style={{ padding: '15px 0 50px 0',fontSize:'16px' }}>샤트렌, 22FW 겨울 신상 컬렉션!</h4>
                             </li>
                             <li>
-                                <img src="//hyungjimall.com/file_data/hyungjimall/gallery/2022/03/30/48a68e5a0ed576033998e99e7e6b14cb.jpg" alt=" " style={{ cursor: 'pointer' }} />
-                                <h4 style={{ padding: '15px 0 0 0' }}>크로커다일레이디, 22SS 겨울 신상 컬렉션!</h4>
+                                <img src="//hyungjimall.com/file_data/hyungjimall/gallery/2022/03/30/48a68e5a0ed576033998e99e7e6b14cb.jpg" alt=" " style={{ cursor: 'pointer', with:'610px',height:'340px'  }} />
+                                <h4 style={{ padding: '15px 0 0 0',fontSize:'16px' }}>크로커다일레이디, 22SS 겨울 신상 컬렉션!</h4>
                             </li>
                             <li>
-                                <img src="//hyungjimall.com/file_data/hyungjimall/gallery/2021/11/15/a7583e590271e6b24605b1b217bbe5a6.jpg" alt=" " style={{ cursor: 'pointer' }} />
-                                <h4 style={{ padding: '15px 0 0 0' }}>형지 소설제(小雪祭)</h4>
+                                <img src="//hyungjimall.com/file_data/hyungjimall/gallery/2021/11/15/a7583e590271e6b24605b1b217bbe5a6.jpg" alt=" " style={{ cursor: 'pointer', with:'610px',height:'340px'  }} />
+                                <h4 style={{ padding: '15px 0 0 0',fontSize:'16px' }}>형지 소설제(小雪祭)</h4>
                             </li>
                         </ul>
                     </div>

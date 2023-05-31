@@ -37,7 +37,8 @@
 }
 
 .img_box li {
-    width: 100%;
+    width: 210px;
+    height:210px;
     display: flex;
     flex-direction: column;
     text-align: center;

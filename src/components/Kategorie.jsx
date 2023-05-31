@@ -1,6 +1,8 @@
 import React from "react";
 import Mainimg from "../Mainimg";
 import { useItemState } from "../context";
+// import { Link } from 'react-router-dom';
+
 
 function KategorieItem({ item }) {
     if (item.id > 10) {
@@ -10,7 +12,8 @@ function KategorieItem({ item }) {
                     <span>{item.best}</span>
                     <span>{item.number}</span>
                 </div>
-                <img src={item.src} alt=" " />
+                {/* <Link to="/components/Kategorie/Detail" ></Link>*/}
+                <img src={item.src} alt=" " /> 
                 <p>{item.titleh}</p>
                 <h4>{item.title}</h4>
                 <p>{item.price}<em style={{ fontSize: '60%', paddingRight: '10px', fontStyle: 'normal' }}>원</em>

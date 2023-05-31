@@ -10,6 +10,7 @@ import Best from './components/Best';
 import Product from './components/Product';
 import Plan from './components/Plan';
 import Contactus from './components/Contactus';
+import Detail from './components/Detail';
 
 function App() {
   return (
@@ -51,6 +52,10 @@ function App() {
           <Route path="/components/Product" component={Product}></Route>
           <Route path="/components/Plan" component={Plan}></Route>
           <Route path="/components/Contactus" component={Contactus}></Route>
+          <Route path="/components/Kategorie/Detail" component={Detail}></Route>
+          <Route path="/components/Best/Detail" component={Detail}></Route>
+          <Route path="/components/Product/Detail" component={Detail}></Route>
+
         </div>
         <Footer />
       </ItemProvider >
